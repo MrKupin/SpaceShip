@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpaceShipMoving : MonoBehaviour
+public class SpaceShipMoving : BaseTeleport
 {
     private float _speed;
     public float Speed

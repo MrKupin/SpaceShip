@@ -11,7 +11,7 @@ public class BulletStorage : MonoBehaviour
     {
         for (int i = 0; i < _bulletCount; i++)
         {
-            _bullets.Add(Instantiate(_bulletPrefab));
+            _bullets.Add(Instantiate(_bulletPrefab, transform));
         }
     }
 
